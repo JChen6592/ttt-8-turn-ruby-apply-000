@@ -13,6 +13,7 @@ def turn(board)
   index = input_to_index(board)
   if valid_move?(board, index)
     turn(board)
+    display_board(board)
   end 
 end
 
