@@ -10,7 +10,7 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   user_input = board
-  index = input_to_index(board)
+  index = input_to_index(user_input)
   if valid_move?(board, index)
     turn(board)
     display_board(board)
