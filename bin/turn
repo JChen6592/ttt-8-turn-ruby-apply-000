@@ -8,4 +8,5 @@ display_board(board)
 turn(board)
 board = gets.strip
 index = input_to_index(board)
+turn(board)
 move(board, index)
