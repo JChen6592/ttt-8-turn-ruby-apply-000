@@ -31,7 +31,7 @@ def position_taken?(board, move)
 end
 
 def valid_move?(board, move)
-  if move >= 0 && move < board.length 
+  if move >= 0 && move <= board.length 
     return true 
   elsif position_taken?(board, move)
     return false 
