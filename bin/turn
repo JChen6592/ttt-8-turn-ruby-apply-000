@@ -7,5 +7,5 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 turn(board)
 board = gets.strip
-index = input_to_index(step)
+index = input_to_index(board)
 move(board, index)
