@@ -8,9 +8,6 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  player_move = board 
-  index = input_to_index(player_move)
-  while 
 end
 
 def input_to_index(move)
