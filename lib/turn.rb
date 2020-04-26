@@ -32,7 +32,7 @@ end
 
 def valid_move?(board, move)
   if move > board.length || move < 0
-    return true 
+    return nil
   elsif position_taken?(board, move)
     return false 
   else 
